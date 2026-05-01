@@ -1,0 +1,8 @@
+.DS_Store
+.trash/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Large generated media should be stored intentionally.
+05-Assets/generated/
+05-Assets/exports/
