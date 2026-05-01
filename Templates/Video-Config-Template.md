@@ -2,10 +2,10 @@
 
 ## Video Settings
 
-- Resolution:
-- Aspect ratio:
+- Resolution: 720x1280
+- Aspect ratio: 9:16
 - Frame rate:
-- Target length:
+- Target length: 15 seconds
 - Visual style:
 
 ## Voice Settings
@@ -31,7 +31,7 @@
 ## Prompt Style
 
 ```text
-
+vertical 9:16, 720x1280, 15-second YouTube Shorts pacing, clear subject, visible action, specific scene, camera movement, lighting, style, subtitles, sound cues
 ```
 
 ## Negative Prompt

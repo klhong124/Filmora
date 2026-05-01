@@ -7,7 +7,7 @@ description: Create consistent AI video character configuration notes for this O
 
 ## Purpose
 
-Create a detailed character configuration note that keeps an AI-generated character visually consistent across images, video clips, thumbnails, and Filmora scenes.
+Create a detailed character configuration note that keeps an AI-generated character visually consistent across 15-second vertical Filmora scenes, clips, and thumbnails.
 
 ## Workflow
 
@@ -81,7 +81,7 @@ Use this structure:
 ## Master Character Prompt
 
 ```text
-[Character name], [age range], [face details], [hair], [eyes], [body/silhouette], wearing [fixed outfit], carrying [fixed prop], [color palette], [genre/style], cinematic storybook realism, consistent character design, high detail, soft film grain, 16:9
+[Character name], [age range], [face details], [hair], [eyes], [body/silhouette], wearing [fixed outfit], carrying [fixed prop], [color palette], [genre/style], cinematic storybook realism, consistent character design, high detail, soft film grain, vertical 9:16, 720x1280
 ```
 
 ## Negative Prompt
@@ -95,32 +95,32 @@ different face, different hairstyle, different outfit, changed age, extra finger
 ### Close-Up
 
 ```text
-[Master character details], close-up portrait, emotional eyes, cinematic lighting, shallow depth of field, 16:9
+[Master character details], close-up portrait, emotional eyes, cinematic lighting, shallow depth of field, vertical 9:16, 720x1280
 ```
 
 ### Medium Shot
 
 ```text
-[Master character details], medium shot, visible outfit and prop, atmospheric background, cinematic composition, 16:9
+[Master character details], medium shot, visible outfit and prop, atmospheric background, cinematic composition, vertical 9:16, 720x1280
 ```
 
 ### Wide Shot
 
 ```text
-[Master character details], full body visible, clear silhouette, environment establishes scale, cinematic wide shot, 16:9
+[Master character details], full body visible, clear silhouette, environment establishes scale, cinematic wide shot, vertical 9:16, 720x1280
 ```
 
 ### Thumbnail Shot
 
 ```text
-[Master character details], strong readable emotion, dramatic lighting, clean background separation, YouTube thumbnail composition, 16:9
+[Master character details], strong readable emotion, dramatic lighting, clean background separation, YouTube Shorts thumbnail composition, vertical 9:16, 720x1280
 ```
 
 ## Filmora Continuity Notes
 
 - Reuse the same character image as reference whenever possible.
 - Keep outfit, hair, eye color, and key prop unchanged unless the story explicitly changes them.
-- Use slow zooms and cross dissolves to hide minor AI variation between shots.
+- Use short vertical close-ups, fast reaction cuts, and simple transitions for 15-second Shorts.
 - Avoid cutting between two shots where the face changes too much.
 
 ## Consistency Checklist

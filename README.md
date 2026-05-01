@@ -1,31 +1,31 @@
-# AI Storytelling YouTube Vault
+# Tiny Logic Tales Vault
 
-This Obsidian vault is for planning, scripting, configuring, and producing AI-generated story videos for YouTube.
+This Obsidian vault is for creating consistent characters and short Filmora-ready AI video prompts for YouTube Shorts.
 
 ## Start Here
 
 - [[01-Channel/Channel-Brief|Channel Brief]]
 - [[03-Video-Configs/Default-Video-Config|Default Video Config]]
 - [[04-Production/Production-Workflow|Production Workflow]]
-- [[02-Stories/001-The-Lighthouse-That-Dreamed|Starter Story Script]]
+- [[02-Stories/001-Pippin-And-Atlas-The-Glasses-Test|Starter Filmora Prompt]]
 
 ## Cursor Commands
 
-Ask Cursor to `create script` or `/create-script` to generate a Filmora-ready story note with narration, scene timing, visual prompts, sound notes, edit notes, and upload metadata.
+Ask Cursor to `create script` or `/create-script` to generate a Filmora-ready prompt only. The saved story note should contain just the prompt text needed for a 15-second vertical video.
 
 Ask Cursor to `create character` or `/create-character` to generate a reusable character config with fixed visual anchors, master prompts, negative prompts, shot prompts, and Filmora continuity notes.
 
 ## Folder Map
 
-- `00-Inbox`: quick ideas, raw prompts, references, and loose notes.
+- `00-Inbox`: quick ideas and raw joke premises.
 - `01-Channel`: channel positioning, audience, style, and recurring rules.
-- `02-Stories`: finished and in-progress story scripts.
-- `03-Video-Configs`: reusable video, voice, image, music, and export settings.
-- `04-Production`: checklists and workflows from idea to upload.
-- `05-Assets`: references, prompts, generated stills, thumbnails, and audio notes.
+- `02-Stories`: Filmora prompt-only story notes.
+- `03-Video-Configs`: default 15-second 720x1280 vertical video settings.
+- `04-Production`: simplified workflow.
+- `05-Assets`: optional references and selected outputs.
 - `06-Characters`: reusable character configs for consistent AI generation.
 - `Templates`: reusable Obsidian note templates.
 
 ## First Video
 
-The first initialized script is [[02-Stories/001-The-Lighthouse-That-Dreamed|The Lighthouse That Dreamed]], a short cinematic AI fable designed for narration, image generation, and atmospheric video editing.
+The first prompt is [[02-Stories/001-Pippin-And-Atlas-The-Glasses-Test|Pippin And Atlas: The Glasses Test]], a 15-second vertical comedy short.

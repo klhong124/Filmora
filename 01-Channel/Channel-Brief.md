@@ -2,39 +2,39 @@
 
 ## Channel Concept
 
-A YouTube channel for cinematic AI-generated story videos: emotional short fables, speculative tales, mysterious bedtime stories, and visual micro-films told through narration, AI imagery, music, and sound design.
+A YouTube Shorts channel for tiny AI-generated animal comedy stories built from consistent characters and precise Filmora prompts.
 
 ## Audience
 
-- Viewers who enjoy short sci-fi, fantasy, mystery, and emotional animated stories.
-- People who want relaxing, atmospheric, late-night storytelling.
-- Fans of AI art, worldbuilding, and cinematic narration.
+- Viewers who like cute animal shorts, silly logic jokes, and quick punchlines.
+- People who want a complete story in about 15 seconds.
+- Fans of AI video characters with consistent visual design.
 
 ## Creative Promise
 
-Each video should feel like a small movie: simple enough to understand quickly, but emotional enough to stay with the viewer after the ending.
+Each video should deliver one clear setup, one cute misunderstanding, and one fast punchline.
 
 ## Tone
 
-- Cinematic
-- Dreamlike
-- Emotional
-- Clear and accessible
-- Slightly mysterious
+- Cute
+- Fast
+- Clear
+- Playful
+- Slightly absurd
 
 ## Story Rules
 
-- Open with a strong image or question in the first 10 seconds.
-- Keep the plot focused on one main character, one desire, and one emotional turn.
-- Avoid long exposition. Reveal the world through action and sensory detail.
-- End with a memorable image, line, or twist.
-- Make every story easy to visualize in AI image prompts.
+- Open with the problem or question in the first 2-4 seconds.
+- Keep each short focused on one joke, one setting, and one punchline.
+- Use recurring characters whenever possible.
+- Make the Filmora prompt concrete: subject, action, scene, camera, lighting, style, subtitles, and sound.
+- End with a readable final text card or memorable reaction.
 
 ## Recurring Formats
 
-- `3-5 minute short`: one idea, one twist, fast production.
-- `6-8 minute cinematic story`: stronger atmosphere and emotional arc.
-- `10-15 minute anthology episode`: multiple connected mini-stories.
+- `15-second logic joke`: a character gives a technically correct but silly answer.
+- `15-second misunderstanding`: one character hears a question the wrong way.
+- `15-second tiny twist`: the final shot reframes the whole setup.
 
 ## Links
 

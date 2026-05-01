@@ -38,7 +38,7 @@ Pippin is a tiny orange tabby cat with oversized round amber eyes, a white cream
 ## Master Character Prompt
 
 ```text
-Pippin, tiny orange tabby cat, young adult cat with kitten-like proportions, round kitten-like face, cream-white muzzle, small pink nose, chubby cheeks, very large round amber-gold eyes with bright catchlights, plush orange fur with darker ginger tabby stripes, small compact body, short rounded paws, oversized fluffy ringed tail, optional small teal neck scarf with tiny brass bell, wide-eyed silly cute expression, cinematic storybook realism, consistent character design, high detail, soft film grain, 16:9
+Pippin, tiny orange tabby cat, young adult cat with kitten-like proportions, round kitten-like face, cream-white muzzle, small pink nose, chubby cheeks, very large round amber-gold eyes with bright catchlights, plush orange fur with darker ginger tabby stripes, small compact body, short rounded paws, oversized fluffy ringed tail, optional small teal neck scarf with tiny brass bell, wide-eyed silly cute expression, cinematic storybook realism, consistent character design, high detail, soft film grain, vertical 9:16, 720x1280
 ```
 
 ## Negative Prompt
@@ -52,32 +52,32 @@ different face, different fur color, different stripe pattern, missing cream muz
 ### Close-Up
 
 ```text
-Pippin, tiny orange tabby cat, round kitten-like face, cream-white muzzle, small pink nose, chubby cheeks, very large round amber-gold eyes with bright catchlights, plush orange fur with darker ginger tabby stripes, optional teal neck scarf and tiny brass bell, close-up portrait, wide-eyed silly "oops" expression, cinematic lighting, shallow depth of field, 16:9
+Pippin, tiny orange tabby cat, round kitten-like face, cream-white muzzle, small pink nose, chubby cheeks, very large round amber-gold eyes with bright catchlights, plush orange fur with darker ginger tabby stripes, optional teal neck scarf and tiny brass bell, close-up portrait, wide-eyed silly "oops" expression, cinematic lighting, shallow depth of field, vertical 9:16, 720x1280
 ```
 
 ### Medium Shot
 
 ```text
-Pippin, tiny orange tabby cat, small compact body, short rounded paws, oversized fluffy ringed tail, plush orange fur with darker ginger tabby stripes, cream-white muzzle, amber-gold eyes, optional teal neck scarf with brass bell, medium shot, playful curious pose, cozy adventure background, cinematic composition, 16:9
+Pippin, tiny orange tabby cat, small compact body, short rounded paws, oversized fluffy ringed tail, plush orange fur with darker ginger tabby stripes, cream-white muzzle, amber-gold eyes, optional teal neck scarf with brass bell, medium shot, playful curious pose, cozy adventure background, cinematic composition, vertical 9:16, 720x1280
 ```
 
 ### Wide Shot
 
 ```text
-Pippin, tiny orange tabby cat with compact rounded silhouette and oversized fluffy ringed tail, orange tabby fur, cream-white muzzle, amber-gold eyes, optional teal scarf, full body visible, small cute figure in a large whimsical environment, cinematic wide shot, 16:9
+Pippin, tiny orange tabby cat with compact rounded silhouette and oversized fluffy ringed tail, orange tabby fur, cream-white muzzle, amber-gold eyes, optional teal scarf, full body visible, small cute figure in a large whimsical environment, cinematic wide shot, vertical 9:16, 720x1280
 ```
 
 ### Thumbnail Shot
 
 ```text
-Pippin, tiny orange tabby cat, giant amber-gold eyes, cream-white muzzle, pink nose, orange striped fur, teal scarf, exaggerated silly surprised expression, one paw raised, dramatic warm rim light, clean background separation, YouTube thumbnail composition, 16:9
+Pippin, tiny orange tabby cat, giant amber-gold eyes, cream-white muzzle, pink nose, orange striped fur, teal scarf, exaggerated silly surprised expression, one paw raised, dramatic warm rim light, clean background separation, YouTube Shorts thumbnail composition, vertical 9:16, 720x1280
 ```
 
 ## Filmora Continuity Notes
 
 - Reuse one close-up reference image of Pippin as the main face anchor.
 - Keep the amber eyes, cream muzzle, orange stripes, fluffy ringed tail, and teal scarf consistent.
-- Use quick zoom-ins for silly reaction moments.
+- Use quick vertical zoom-ins for silly reaction moments.
 - Use cross dissolves between generated shots if the stripe pattern changes slightly.
 - Avoid scenes where Pippin becomes too realistic, angry, or adult-looking.
 

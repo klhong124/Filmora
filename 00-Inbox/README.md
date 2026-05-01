@@ -1,3 +1,3 @@
 # Inbox
 
-Use this folder for raw ideas, quick prompts, title concepts, references, and unfinished story seeds before moving them into the main vault structure.
+Use this folder for quick joke ideas, character ideas, raw premises, and loose notes before turning them into a character note or a Filmora prompt.

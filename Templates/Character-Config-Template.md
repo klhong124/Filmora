@@ -77,8 +77,9 @@ different face, different hairstyle, different outfit, changed age, extra finger
 
 - Reuse the same character image as reference whenever possible.
 - Keep outfit, hair, eye color, and key prop unchanged unless the story explicitly changes them.
-- Use slow zooms and cross dissolves to hide minor AI variation between shots.
+- Use short vertical close-ups, fast reaction cuts, and simple transitions for 15-second Shorts.
 - Avoid cutting between two shots where the face changes too much.
+- Character prompts should support vertical 9:16, 720x1280 Filmora scenes.
 
 ## Consistency Checklist
 

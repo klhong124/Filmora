@@ -38,7 +38,7 @@ Atlas is a sleek black dog with intelligent brown eyes, a calm posture, and a ti
 ## Master Character Prompt
 
 ```text
-Atlas, medium-large sleek black dog, adult intelligent protector, long gentle muzzle, symmetrical face, black nose, expressive brow, warm dark-brown focused eyes, upright ears with one ear slightly tilted, short glossy black coat with subtle blue highlights, athletic lean body, deep chest, confident alert stance, tiny white star-shaped patch on chest, optional dark navy working collar with small silver compass tag, calm smart expression, cinematic storybook realism, consistent character design, high detail, soft film grain, 16:9
+Atlas, medium-large sleek black dog, adult intelligent protector, long gentle muzzle, symmetrical face, black nose, expressive brow, warm dark-brown focused eyes, upright ears with one ear slightly tilted, short glossy black coat with subtle blue highlights, athletic lean body, deep chest, confident alert stance, tiny white star-shaped patch on chest, optional dark navy working collar with small silver compass tag, calm smart expression, cinematic storybook realism, consistent character design, high detail, soft film grain, vertical 9:16, 720x1280
 ```
 
 ## Negative Prompt
@@ -52,25 +52,25 @@ different face, different fur color, brown dog, white dog, missing white chest s
 ### Close-Up
 
 ```text
-Atlas, medium-large sleek black dog, long gentle muzzle, expressive brow, warm dark-brown focused eyes, upright ears with one ear slightly tilted, glossy black coat with subtle blue highlights, tiny white star-shaped chest patch partly visible, dark navy working collar with small silver compass tag, close-up portrait, calm intelligent gaze, cinematic lighting, shallow depth of field, 16:9
+Atlas, medium-large sleek black dog, long gentle muzzle, expressive brow, warm dark-brown focused eyes, upright ears with one ear slightly tilted, glossy black coat with subtle blue highlights, tiny white star-shaped chest patch partly visible, dark navy working collar with small silver compass tag, close-up portrait, calm intelligent gaze, cinematic lighting, shallow depth of field, vertical 9:16, 720x1280
 ```
 
 ### Medium Shot
 
 ```text
-Atlas, medium-large sleek black dog, athletic lean body, deep chest, glossy black coat with subtle blue highlights, warm dark-brown eyes, upright ears, tiny white star-shaped patch on chest, dark navy working collar with silver compass tag, medium shot, alert problem-solving posture, mysterious adventure background, cinematic composition, 16:9
+Atlas, medium-large sleek black dog, athletic lean body, deep chest, glossy black coat with subtle blue highlights, warm dark-brown eyes, upright ears, tiny white star-shaped patch on chest, dark navy working collar with silver compass tag, medium shot, alert problem-solving posture, mysterious adventure background, cinematic composition, vertical 9:16, 720x1280
 ```
 
 ### Wide Shot
 
 ```text
-Atlas, medium-large sleek black dog with athletic silhouette, upright ears, gently curved tail, glossy black coat, tiny white star-shaped chest patch, dark navy collar, full body visible, standing confidently in a large mysterious environment, cinematic wide shot, 16:9
+Atlas, medium-large sleek black dog with athletic silhouette, upright ears, gently curved tail, glossy black coat, tiny white star-shaped chest patch, dark navy collar, full body visible, standing confidently in a large mysterious environment, cinematic wide shot, vertical 9:16, 720x1280
 ```
 
 ### Thumbnail Shot
 
 ```text
-Atlas, sleek black dog, warm dark-brown intelligent eyes, upright ears, tiny white star-shaped patch on chest, navy collar with silver compass tag, calm focused heroic expression, dramatic cool rim light, clean background separation, YouTube thumbnail composition, 16:9
+Atlas, sleek black dog, warm dark-brown intelligent eyes, upright ears, tiny white star-shaped patch on chest, navy collar with silver compass tag, calm focused heroic expression, dramatic cool rim light, clean background separation, YouTube Shorts thumbnail composition, vertical 9:16, 720x1280
 ```
 
 ## Filmora Continuity Notes

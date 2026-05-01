@@ -1,41 +1,41 @@
 # Default Video Config
 
-Use this as the baseline configuration for story videos.
+Use this as the baseline configuration for 15-second vertical story prompts.
 
 ## Video
 
-- Format: YouTube landscape
-- Resolution: 3840x2160 if available, otherwise 1920x1080
-- Aspect ratio: 16:9
+- Format: YouTube Shorts vertical
+- Resolution: 720p vertical, 720x1280
+- Aspect ratio: 9:16
 - Frame rate: 24 fps or 30 fps
-- Target length: 4-8 minutes
-- Visual style: cinematic, painterly realism, soft film grain, volumetric light
+- Target length: 15 seconds
+- Visual style: cinematic storybook realism, cute character consistency, soft film grain, warm clear lighting
 
 ## Narration
 
-- Voice: warm, calm, cinematic storyteller
-- Delivery: slow but not sleepy
-- Pace: 130-150 words per minute
-- Emotion: restrained, intimate, gradually building
+- Voice: warm, playful, clear storyteller
+- Delivery: fast enough for Shorts, but still understandable
+- Pace: 120-150 spoken words total for a 15-second short
+- Emotion: playful setup into punchline
 - Processing: light compression, gentle de-essing, subtle room tone
 
 ## Music
 
-- Style: ambient cinematic score
-- Instruments: soft piano, low strings, pads, distant bells
-- Mix level: low under narration, higher during title and ending
-- Avoid: busy melodies that compete with the voice
+- Style: light comedic score
+- Instruments: pizzicato strings, soft bells, tiny percussion, warm pads
+- Mix level: low under dialogue, punchier on reaction and end card
+- Avoid: busy melodies that hide the joke
 
 ## Sound Design
 
-- Use subtle location sounds to make scenes feel real.
-- Keep effects quiet and atmospheric.
-- Add one signature sound per story, such as a lighthouse horn, clock tick, radio static, or rain.
+- Use simple location sounds to make the scene readable fast.
+- Keep effects clean and punchy.
+- Add one signature sound per character or story, such as Pippin's bell, a pencil tap, or a record scratch.
 
 ## Image Prompt Defaults
 
 ```text
-cinematic storybook realism, atmospheric lighting, detailed environment, emotional composition, soft film grain, shallow depth of field, volumetric light, high detail, 16:9
+cinematic storybook realism, cute consistent character design, detailed but readable environment, warm clear lighting, soft film grain, shallow depth of field, vertical 9:16, 720x1280
 ```
 
 ## Negative Prompt Defaults
@@ -44,11 +44,8 @@ cinematic storybook realism, atmospheric lighting, detailed environment, emotion
 low quality, blurry, distorted face, extra fingers, unreadable text, watermark, logo, oversaturated, plastic skin, bad anatomy
 ```
 
-## Upload Metadata Template
+## Filmora Prompt Defaults
 
-- Title:
-- Description:
-- Tags:
-- Thumbnail concept:
-- Hook line:
-- End screen CTA:
+- Use only Filmora prompt text in story notes.
+- Target 3-5 scene beats for 15 seconds.
+- Each beat should specify subject, action, scene, camera movement, lighting, subtitle/text overlay, and sound.

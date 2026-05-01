@@ -7,143 +7,81 @@ description: Create Filmora-ready AI storytelling video scripts for this Obsidia
 
 ## Purpose
 
-Create a complete AI storytelling video prompt note that can be passed into Filmora for video production and later uploaded to YouTube.
+Generate only a Filmora-ready prompt for an AI story video.
 
-## Workflow
+## Core Rule
 
-1. Choose or confirm the story idea, target length, genre, and emotional tone.
-2. Create a new markdown note in `02-Stories/` using this filename pattern:
-   `NNN-Short-Story-Title.md`
-3. Use [[03-Video-Configs/Default-Video-Config]] as the baseline unless the user gives different settings.
-4. Write the script in short narration blocks that are easy to paste into voice generation tools.
-5. Break the story into accurate Filmora-ready prompts with timing, visuals, audio, and editing notes.
-6. Add upload metadata so the note can move directly into production.
+When creating or regenerating a story, output the Filmora prompt only. Do not include status blocks, loglines, hooks, character sections, scene-plan tables, upload metadata, image prompt banks, production notes, explanations, or checklists unless the user explicitly asks for them.
 
-## Output Requirements
+## Language And Length
 
-Every generated story script should include:
+- Write in Traditional Chinese unless the user requests another language.
+- Keep the complete Filmora prompt 2000 words or fewer.
+- Aim to use most of the 2000-word cap for richer, more accurate prompts. Do not produce a short prompt when more useful production detail can be added.
+- Only stay far below the cap when the user explicitly asks for a very short video, a tight word count, or a minimal prompt.
+- The saved story note should contain only the prompt text needed for Filmora.
 
-- Write the story note in Traditional Chinese unless the user requests another language.
-- Treat the output as a Filmora prompt note, not just a prose story.
-- Status block with target length, format, genre, emotion, and related config.
-- Logline: one sentence.
-- Hook: first 5-10 seconds.
-- Characters with visual design notes.
-- Filmora scene plan with estimated timestamps.
-- Narration for each scene.
-- Accurate Filmora visual prompt for each scene.
-- Sound and music notes for each scene.
-- Image prompt bank.
-- Upload metadata: title, alternate title, description, tags, thumbnail concept, pinned comment.
-- Production notes for consistency and editing.
-- Total note length must be 1000 characters or fewer, including spaces and new lines.
+## Prompt Requirements
 
-## Script Format
+The Filmora prompt must be accurate and directly usable:
 
-Use this structure:
+- Build each text-to-video scene prompt with this formula: Subject + Action + Scene + Camera Movement + Lighting + Style.
+- Name the exact characters in every scene.
+- Repeat important visual identifiers for consistency, such as species, clothing, accessories, colors, and props.
+- Describe visible actions, setting, camera movement, mood, lighting, subtitles or text overlays, sound effects, and music.
+- Prefer detailed, production-ready scene prompts that get close to the word cap while staying clear, specific, and usable.
+- Expand each scene with concrete production details: foreground, background, character position, facial expression, body posture, prop placement, camera angle, lens distance, transition, pacing, lighting direction, color palette, subtitle timing, and sound cue.
+- Keep character continuity explicit by repeating signature traits every time a character appears, especially colors, accessories, face shape, clothing, props, and emotional expression.
+- Use clear timestamps or numbered scene beats when useful.
+- Avoid vague filler. Do not rely on words like "beautiful", "cinematic", or "emotional" unless paired with concrete visual details.
+- Keep narration short and paste-ready for voice generation.
+- Include one recurring sound motif when it helps continuity.
 
-````markdown
-# [Story Title]
+## Effective Video Prompt Formula
 
-## Status
+For every scene, make the prompt concrete enough that Filmora can generate the intended video without guessing:
 
-- Stage: draft ready
-- Target length: [minutes]
-- Format: cinematic narrated story
-- Genre: [genre]
-- Emotion: [emotion]
-- Related config: [[03-Video-Configs/Default-Video-Config]]
+- Subject: Describe who or what is in focus, including appearance, facial expression, body posture, clothing, accessories, species, color, and key props.
+- Action: State the visible action clearly. Use simple, physical actions that can plausibly happen in the scene.
+- Scene: Describe the foreground, background, location, environment, and any important objects.
+- Camera Movement: Specify the shot and movement, such as close-up, wide shot, slow push-in, zoom in, zoom out, pan left, tracking shot, handheld subtle shake, aerial shot, or focus shift.
+- Lighting: Describe the light source and mood, such as warm window light, moonlight, soft backlight, spotlight, cold blue dawn, or golden sunrise.
+- Style: State the visual style only when useful, and pair it with concrete details. Avoid style-only prompts.
 
-## Logline
+When the prompt is too short, add detail in this order:
 
-[One sentence story summary.]
+1. Character continuity: repeated visual traits, accessories, expression, posture, and scale.
+2. Action clarity: exact physical movement, start position, end position, and reaction.
+3. Environment: foreground props, background elements, surface textures, weather, and time of day.
+4. Camera: framing, angle, movement, speed, focus, and transition into the next shot.
+5. Lighting and color: direction of light, contrast, warmth or coolness, shadow behavior, and palette.
+6. Text and sound: subtitle text, when it appears, sound effects, music change, silence, and recurring motif.
 
-## Hook
+## Prompt Quality Rules
 
-[First 5-10 seconds of narration or visual question.]
+- Prefer simple words and direct sentence structure. Break complex actions into smaller scene beats.
+- If the scene changes, explicitly write "切到" or "switch to" and describe the new scene again.
+- Keep movement physically consistent. Do not ask for impossible movement unless the story intentionally needs fantasy logic.
+- Make the prompt match the actual visible content. Do not introduce characters, locations, props, or backgrounds that are not meant to appear.
+- Avoid exact counts when visual consistency may be difficult, unless the number is important to the story. Use "幾個", "一排", or "許多" when exact count is not critical.
+- Use degree words for action intensity when helpful, such as slowly, gently, quickly, subtly, or dramatically.
+- If using image-to-video or reference images, describe only motion, background movement, and camera movement that fit the starting image.
+- Mention sound effects and music separately from visual generation when needed, because some AI video models may not generate sound directly.
+- Do not pad with generic adjectives. Extra length should improve generation accuracy, continuity, timing, or editability.
+- For short videos, use fewer scenes but make each scene dense with exact visual, camera, subtitle, and sound instructions.
 
-## Characters
+## Output Format
 
-- [Name]
-  - Role:
-  - Desire:
-  - Fear:
-  - Visual design:
+Use plain markdown containing only the Filmora prompt. A concise structure like this is allowed:
 
-## Filmora Scene Plan
+```markdown
+[Filmora prompt title]
 
-| Scene | Time | Visual | Audio | Edit Notes |
-|---|---:|---|---|---|
-| 1 | 0:00-0:30 | [visual summary] | [sound/music] | [transition or pacing] |
+1. 0:00-0:10 [Subject + Action + Scene + Camera Movement + Lighting + Style. Subtitle/text overlay. Sound/music.]
 
-## Script
+2. 0:10-0:25 [Subject + Action + Scene + Camera Movement + Lighting + Style. Subtitle/text overlay. Sound/music.]
 
-### Scene 1: [Scene Name]
-
-Time: 0:00-0:30
-
-Narration:
-
-[Short narration paragraphs.]
-
-Filmora prompt:
-
-```text
-[Accurate scene prompt: character, action, setting, camera, mood, 16:9]
+...
 ```
 
-Sound:
-
-- [ambient sound]
-- [music direction]
-- [effect]
-
-Edit notes:
-
-- [Filmora-specific note: zoom, pan, crossfade, overlay, subtitle, speed, etc.]
-
-## Image Prompt Bank
-
-```text
-[Reusable character/location prompt.]
-```
-
-## Upload Metadata
-
-- Title:
-- Alternate title:
-- Description:
-- Tags:
-- Thumbnail concept:
-- Pinned comment:
-
-## Production Notes
-
-- [Consistency, voice, color, pacing, or editing notes.]
-````
-
-## Filmora Guidance
-
-- Prefer 6-10 scenes for a 4-8 minute story.
-- Give each scene a clear timestamp range.
-- Make every Filmora prompt accurate: name the exact character, visible action, setting, camera move, mood, and required text overlay.
-- Avoid vague prompt filler. Do not use generic words like "beautiful", "cinematic", or "emotional" unless paired with concrete visual details.
-- Include simple edit notes Filmora can execute: slow zoom, pan left, fade to black, cross dissolve, subtitle emphasis, light leak, film grain, or ambient overlay.
-- Keep narration paragraphs short so they can be pasted into TTS tools.
-- Keep visual prompts consistent across scenes by repeating character and location descriptors.
-- Include one recurring sound motif for the story.
-- Keep the complete story note in Traditional Chinese and under 1000 characters, including spaces and new lines.
-
-## Quality Checklist
-
-Before finishing, verify:
-
-- [ ] The first 10 seconds have a strong hook.
-- [ ] The story has one main character, one desire, and one emotional turn.
-- [ ] Every scene has narration, visual prompt, sound notes, and edit notes.
-- [ ] Every Filmora prompt is accurate, concrete, and directly usable in Filmora.
-- [ ] The ending has a memorable final image or line.
-- [ ] Upload metadata is complete.
-- [ ] The note links to the default video config.
-- [ ] The complete note is written in Traditional Chinese unless otherwise requested.
-- [ ] The complete note is 1000 characters or fewer, including spaces and new lines.
+Do not add separate metadata or notes after the prompt.

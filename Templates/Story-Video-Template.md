@@ -1,72 +1,7 @@
 # {{title}}
 
-## Status
+1. 0:00-0:05 [Subject + Action + Scene + Camera Movement + Lighting + Style. Subtitle/text overlay. Sound/music.]
 
-- Stage: idea
-- Target length:
-- Format:
-- Genre:
-- Emotion:
-- Created:
-- Related config: [[03-Video-Configs/Default-Video-Config]]
+2. 0:05-0:10 [Subject + Action + Scene + Camera Movement + Lighting + Style. Subtitle/text overlay. Sound/music.]
 
-## Logline
-
-One sentence describing the story.
-
-## Hook
-
-The first 5-10 seconds of narration or visual setup.
-
-## Characters
-
-- Name:
-  - Role:
-  - Desire:
-  - Fear:
-  - Visual design:
-
-## Script
-
-### Scene 1
-
-Narration:
-
-Visual prompt:
-
-Sound:
-
-### Scene 2
-
-Narration:
-
-Visual prompt:
-
-Sound:
-
-### Scene 3
-
-Narration:
-
-Visual prompt:
-
-Sound:
-
-## Image Prompt Bank
-
-```text
-
-```
-
-## Upload Metadata
-
-- Title:
-- Description:
-- Tags:
-- Thumbnail concept:
-- Pinned comment:
-
-## Production Notes
-
-- What worked:
-- What to improve:
+3. 0:10-0:15 [Subject + Action + Scene + Camera Movement + Lighting + Style. Subtitle/text overlay. Sound/music.]
