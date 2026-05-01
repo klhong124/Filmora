@@ -28,9 +28,10 @@ The Filmora prompt must be accurate and directly usable:
 - Build each text-to-video scene prompt with this formula: Subject + Action + Scene + Camera Movement + Lighting + Style.
 - Name the exact characters in every scene.
 - Repeat important visual identifiers for consistency, such as species, clothing, accessories, colors, and props.
-- Describe visible actions, setting, camera movement, mood, lighting, subtitles or text overlays, sound effects, and music.
+- Describe visible actions, setting, camera movement, mood, lighting, sound effects, and music.
+- Do not add any text on the video. Do not include titles, title cards, subtitles, captions, labels, lower thirds, or text overlays unless the user explicitly asks for on-screen text.
 - Prefer detailed, production-ready scene prompts that get close to the word cap while staying clear, specific, and usable.
-- Expand each scene with concrete production details: foreground, background, character position, facial expression, body posture, prop placement, camera angle, lens distance, transition, pacing, lighting direction, color palette, subtitle timing, and sound cue.
+- Expand each scene with concrete production details: foreground, background, character position, facial expression, body posture, prop placement, camera angle, lens distance, transition, pacing, lighting direction, color palette, and sound cue.
 - Keep character continuity explicit by repeating signature traits every time a character appears, especially colors, accessories, face shape, clothing, props, and emotional expression.
 - Use clear timestamps or numbered scene beats when useful.
 - Avoid vague filler. Do not rely on words like "beautiful", "cinematic", or "emotional" unless paired with concrete visual details.
@@ -55,7 +56,7 @@ When the prompt is too short, add detail in this order:
 3. Environment: foreground props, background elements, surface textures, weather, and time of day.
 4. Camera: framing, angle, movement, speed, focus, and transition into the next shot.
 5. Lighting and color: direction of light, contrast, warmth or coolness, shadow behavior, and palette.
-6. Text and sound: subtitle text, when it appears, sound effects, music change, silence, and recurring motif.
+6. Sound: sound effects, music change, silence, and recurring motif.
 
 ## Prompt Quality Rules
 
@@ -68,18 +69,16 @@ When the prompt is too short, add detail in this order:
 - If using image-to-video or reference images, describe only motion, background movement, and camera movement that fit the starting image.
 - Mention sound effects and music separately from visual generation when needed, because some AI video models may not generate sound directly.
 - Do not pad with generic adjectives. Extra length should improve generation accuracy, continuity, timing, or editability.
-- For short videos, use fewer scenes but make each scene dense with exact visual, camera, subtitle, and sound instructions.
+- For short videos, use fewer scenes but make each scene dense with exact visual, camera, and sound instructions.
 
 ## Output Format
 
 Use plain markdown containing only the Filmora prompt. A concise structure like this is allowed:
 
 ```markdown
-[Filmora prompt title]
+1. 0:00-0:10 [Subject + Action + Scene + Camera Movement + Lighting + Style. Sound/music.]
 
-1. 0:00-0:10 [Subject + Action + Scene + Camera Movement + Lighting + Style. Subtitle/text overlay. Sound/music.]
-
-2. 0:10-0:25 [Subject + Action + Scene + Camera Movement + Lighting + Style. Subtitle/text overlay. Sound/music.]
+2. 0:10-0:25 [Subject + Action + Scene + Camera Movement + Lighting + Style. Sound/music.]
 
 ...
 ```
